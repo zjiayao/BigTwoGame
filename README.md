@@ -15,13 +15,13 @@ Doc](https://img.shields.io/badge/documentation-ready-brightgreen.svg)](doc/inde
 The "Big Two" game is a popular card game of four players.
 "Big Two Game with `Java`", as the name suggested, is powered by `Java`.
 
-![overview](figs/overview.png)
 
 This game supports the following features:
 
 
 - Pleasant UI/UX
 
+![overview](figs/overview.png)
 
 - Multi-player via Socket I/O (both localhost/LAN/WAN)
 
