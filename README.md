@@ -1,9 +1,9 @@
 # Big Two Game with `Java`
 
 [![License](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://github.com/zjiayao/BigTwoGame/blob/master/LICENSEs://github.com/zjiayao/BigTwoGame/blob/master/LICENSE)
-
-[![Read the
-Doc](https://img.shields.io/badge/documentation-ready-brightgreen.svg)](doc/index.html)
+[![Travis Status](https://travis-ci.org/zjiayao/BigTwoGame.svg?branch=master)](https://travis-ci.org/zjiayao/BigTwoGame/)
+[![Appveyor Status](https://ci.appveyor.com/api/projects/status/nsmqa9hgnn3kponw?svg=true)](https://ci.appveyor.com/project/zjiayao/bigtwogame)
+[![Read the Doc](https://img.shields.io/badge/documentation-ready-brightgreen.svg)](doc/index.html)
 [![Chat on Gitter](https://badges.gitter.im/zjiayao/BigTwoGame.svg)](https://gitter.im/zjiayao/BigTwoGame/)
 
 
