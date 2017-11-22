@@ -43,12 +43,11 @@ enjoying the game:
 
 - Game Hints
 
-Got stuck of what can be player? No problem,
+Got stuck of what can be played? No problem,
 a hinter comes to rescue:
 
 ![hint](figs/hint.png)
 
-![hint2](figs/hint2.png)
 
 - Asynchronous Chatting
 
