@@ -130,7 +130,7 @@ classes and interfaces, concretely:
 ![uml-class](doc/doc-files/Class%20Overview.svg)
 
 A [much more detailed class diagram](doc/doc-files/Class%20Diagram.svg) can also be found
-in teh `doc/doc-files` subfolder, which listed
+in the `doc/doc-files` subfolder, which listed
 all major APIs.
 
 As such, the core use cases are summarized below:
