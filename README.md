@@ -117,6 +117,33 @@ to being.
 You are welcome to submit a PR, be sure to check
 the thorough [documentation](doc/index.html) of the implementation.
 
+### Software Structure
+
+Essentially, the game is modeled by a handful of
+classes and interfaces, concretely, see the following
+UML diagram:
+
+![uml-class](doc/doc-files/Class Overview.svg)
+
+A [much more detailed class diagram](doc/doc-files/Class Diagram.svg) can also be found
+in teh `doc/doc-files` subfolder, which listed
+all major APIs.
+
+As such, the core use cases are summarized below:
+
+![uml-uc](doc/doc-files/Use Case.svg)
+
+### UI/UX Design
+
+The core philosophy for the design is simplicity,
+which infact turns out pretty well. The GUI is powered
+by `java.swing`, mostly `JPanel` and its subclasses.
+
+An overview of the components is outlined below:
+
+![ui-ux](doc/doc-files/GUI Design.svg)
+
+
 This project has been submitted in partial fulfillment
 for the course *OOP and Java* offered by HKU, 2016-17.
 
