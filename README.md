@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://github.com/zjiayao/BigTwoGame/blob/master/LICENSEs://github.com/zjiayao/BigTwoGame/blob/master/LICENSE)
 [![Read the
 Doc](https://img.shields.io/badge/documentation-ready-brightgreen.svg)](doc/index.html)
-[![Chat on Gitter](https://badges.gitter.im/zjiayao/pyTracer.svg)](https://gitter.im/zjiayao/pyTracer/)
+[![Chat on Gitter](https://badges.gitter.im/zjiayao/BigTwoGame.svg)](https://gitter.im/zjiayao/BigTwoGame/)
 
 
 ![board](figs/board.png)
@@ -22,7 +22,6 @@ This game supports the following features:
 
 - Pleasant UI/UX
 
-![window](figs/window.png)
 
 - Multi-player via Socket I/O (both localhost/LAN/WAN)
 
@@ -67,7 +66,7 @@ First, clone this repo using `git`:
 
     git clone https://github.com/zjiayao/BigTwoGame
 
-Then one make compile from source:
+Then one may compile from source:
 
     cd BigTwoGame/src && javac BigTwoClient.java && javac BigTwoServer.java
 
@@ -104,7 +103,7 @@ we run four clients:
     ./java BigTwoClient &
     ...
 
-First specify your name, then one may join the server:
+First specify your name and join the server:
 
 ![player](figs/player.png)
 
@@ -126,8 +125,7 @@ the thorough [documentation](doc/index.html) of the implementation.
 ### Software Structure
 
 Essentially, the game is modeled by a handful of
-classes and interfaces, concretely, see the following
-UML diagram:
+classes and interfaces, concretely:
 
 ![uml-class](doc/doc-files/Class%20Overview.svg)
 
@@ -149,6 +147,8 @@ An overview of the components is outlined below:
 
 ![ui-ux](doc/doc-files/GUI%20Design.svg)
 
+
+## Disclaimer
 
 This project has been submitted in partial fulfillment
 for the course *OOP and Java* offered by HKU, 2016-17.
