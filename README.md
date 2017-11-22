@@ -85,7 +85,7 @@ to the `src` folder:
 
 then invoke the `server`:
 
-    ./java BigTwoServer &
+    java ./BigTwoServer &
 
 On a Windows machine, the command is analogous:
 
@@ -100,8 +100,8 @@ with port being `2397`.
 Noted each game requires four players, hence
 we run four clients:
 
-    ./java BigTwoClient &
-    ...
+    java ./BigTwoClient &
+    # ...
 
 First specify your name and join the server:
 
@@ -114,7 +114,7 @@ After game ends, the result is prompted:
 ![result](figs/result.png)
 
 After all players view the result, a new game is about
-to being.
+to begin.
 
 
 ## Development
@@ -129,7 +129,7 @@ classes and interfaces, concretely:
 
 ![uml-class](doc/doc-files/Class%20Overview.svg)
 
-A [much more detailed class diagram](doc/doc-files/Class%20Diagram.svg) can also be found
+A [much more detailed class diagram](http://htmlpreview.github.io/?https://github.com/zjiayao/BigTwoGame/blob/master/doc/doc-files/Class%20Diagram.svg) can also be found
 in the `doc/doc-files` subfolder, which listed
 all major APIs.
 
