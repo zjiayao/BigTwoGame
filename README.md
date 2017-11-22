@@ -1,6 +1,7 @@
 # Big Two Game with `Java`
 
 [![License](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://github.com/zjiayao/BigTwoGame/blob/master/LICENSEs://github.com/zjiayao/BigTwoGame/blob/master/LICENSE)
+
 [![Read the
 Doc](https://img.shields.io/badge/documentation-ready-brightgreen.svg)](doc/index.html)
 [![Chat on Gitter](https://badges.gitter.im/zjiayao/BigTwoGame.svg)](https://gitter.im/zjiayao/BigTwoGame/)
@@ -32,7 +33,7 @@ This game supports the following features:
 Multiple shortcuts are supported for better
 enjoying the game:
 
-
+| Key | Function |
 |:------------------:|:----:|
 | `<SHIFT> + <RETURN>` | Play |
 |       `<SPACE>`      | Pass |
