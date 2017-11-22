@@ -1,0 +1,6 @@
+language: java
+script:
+    - cd src
+    - javac BigTwoClient.java
+    - javac BigTwoServer.java
+

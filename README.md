@@ -1,9 +1,10 @@
 # Big Two Game with `Java`
 
 [![License](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://github.com/zjiayao/BigTwoGame/blob/master/LICENSEs://github.com/zjiayao/BigTwoGame/blob/master/LICENSE)
-[![Chat on Gitter](https://badges.gitter.im/zjiayao/pyTracer.svg)](https://gitter.im/zjiayao/pyTracer/)
 [![Read the
 Doc](https://img.shields.io/badge/documentation-ready-brightgreen.svg)](doc/index.html)
+[![Chat on Gitter](https://badges.gitter.im/zjiayao/pyTracer.svg)](https://gitter.im/zjiayao/pyTracer/)
+
 
 ![board](figs/board.png)
 
@@ -33,11 +34,11 @@ Multiple shortcuts are supported for better
 enjoying the game:
 
 
-| <SHIFT> + <RETURN> | Play |
 |:------------------:|:----:|
-|       <SPACE>      | Pass |
-|  <CTRL> + <RETURN> | Hint |
-|      <RETURN>      | Chat |
+| `<SHIFT> + <RETURN>` | Play |
+|       `<SPACE>`      | Pass |
+|  `<CTRL> + <RETURN>` | Hint |
+|      `<RETURN>`      | Chat |
 
 
 - Game Hints
@@ -68,7 +69,7 @@ First, clone this repo using `git`:
 
 Then one make compile from source:
 
-    cd BigTwoGame && javac BigTwoClient.java && javac BigTwoServer.java
+    cd BigTwoGame/src && javac BigTwoClient.java && javac BigTwoServer.java
 
 That's all!
 
@@ -78,7 +79,12 @@ That's all!
 Big-Two Game supports multi-player, and can be invoked in a LAN environment. In
 this section, we run the server and clients on `localhost` for illustration.
 
-First compile the source (see previous section), then invoke the `server`:
+First compile the source (see previous section) and navigate
+to the `src` folder:
+
+    cd src
+
+then invoke the `server`:
 
     ./java BigTwoServer &
 
@@ -123,15 +129,15 @@ Essentially, the game is modeled by a handful of
 classes and interfaces, concretely, see the following
 UML diagram:
 
-![uml-class](doc/doc-files/Class Overview.svg)
+![uml-class](doc/doc-files/Class%20Overview.svg)
 
-A [much more detailed class diagram](doc/doc-files/Class Diagram.svg) can also be found
+A [much more detailed class diagram](doc/doc-files/Class%20Diagram.svg) can also be found
 in teh `doc/doc-files` subfolder, which listed
 all major APIs.
 
 As such, the core use cases are summarized below:
 
-![uml-uc](doc/doc-files/Use Case.svg)
+![uml-uc](doc/doc-files/Use%20Case.svg)
 
 ### UI/UX Design
 
@@ -141,7 +147,7 @@ by `java.swing`, mostly `JPanel` and its subclasses.
 
 An overview of the components is outlined below:
 
-![ui-ux](doc/doc-files/GUI Design.svg)
+![ui-ux](doc/doc-files/GUI%20Design.svg)
 
 
 This project has been submitted in partial fulfillment
